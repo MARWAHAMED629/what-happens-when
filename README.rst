@@ -509,6 +509,8 @@ and IIS for Windows.
 * The server parses the file according to the handler. If Google
   is running on PHP, the server uses PHP to interpret the index file, and
   streams the output to the client.
+In essence, the HTTP Server Request Handle is the process by which a web server receives a 
+request from a client, understands what's being requested, retrieves the necessary content, and sends back a response.
 
 Behind the scenes of the Browser
 ----------------------------------
